@@ -1,0 +1,6 @@
+.cache
+.history
+dist/
+*.html
+package.json
+package-lock.json
