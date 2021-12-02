@@ -5,9 +5,9 @@
     "target": "ESNEXT",                    /* TypeScriptを書くときにどのversionのESが対象か: 'ES3' (default), 'ES5', 'ES2015', 'ES2016', 'ES2017','ES2018' or 'ESNEXT'. */
     "module": "ESNext",                    /* どのversionのESを生成するか: 'none', 'commonjs', 'amd', 'system', 'umd', 'es2015', or 'ESNext'. */
     // "jsx": "preserve",                     /* reactを書くときに必要, 'react-native', or 'react'. */
-    // "outFile": "./",                    /* 出力するファイル(ファイル出力はwebpackで行うので不要) */
-    // "outDir": "./",                     /* 出力するディレクトリ(ファイル出力はwebpackで行うので不要) */
-    // "rootDir": "./",                    /* ビルド時のルートディレクトリ(ビルド対象のパス設定はwebpackで行うので不要) */
+    // "outFile": "./",                    /* 出力するファイル */
+    "outDir": "src/assets/js/",                     /* 出力するディレクトリ */
+    "rootDir": "src/assets/ts/",                    /* ビルド時のルートディレクトリ */
     // "noEmit": "true",                   /* ビルド時に型ファイルを生成しない(これがあるとts-loaderでエラーが出るので外しています */
 
     /* Strict Type-Checking Options */
